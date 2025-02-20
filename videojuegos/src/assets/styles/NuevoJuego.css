@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4fdcf;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    margin: 20px;
+}
+
+#mensaje {
+    color: #0db5f0;
+}

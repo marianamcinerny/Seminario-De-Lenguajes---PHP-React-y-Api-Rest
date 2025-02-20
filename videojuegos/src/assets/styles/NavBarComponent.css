@@ -1,0 +1,29 @@
+#ulNavBar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#ulNavBar li {
+    padding: 10px;
+    background-color: #0db5f0;
+    border-radius: 30px;
+    margin: 0 5px 0 5px;
+}
+
+#ulNavBar li:hover {
+    background-color: #c4fdcf;
+}
+
+#ulNavBar li a {
+    text-decoration: none;
+    color: black;
+}
+
+#ulNavBar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}

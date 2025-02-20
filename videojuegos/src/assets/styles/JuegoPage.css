@@ -1,0 +1,114 @@
+#filtros {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#filtros p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#filtros div {
+    border-radius: 15px;
+    background-color: #c4fdcf;
+    padding: 16px 20px 16px 20px;
+}
+
+#filtros div input {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#filtros div select {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+select [multiple] {
+    height: auto;
+}
+
+#containerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;    
+    gap: 16px;
+    padding: 16px; 
+}
+
+#containerList li{
+    padding: 10px;
+    width: 230px;
+    height: auto;
+    margin: 0 20px 0 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #c4fdcf;
+}
+
+#containerList #titulo {
+    text-align: center;
+}
+
+#containerList a {
+    text-decoration: none;
+}
+
+#containerList #titulo h2 {
+    background-color:#c4fdcf;
+    color:#0db5f0;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#containerList #info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#botones-calificacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+
+#botones-calificacion button {
+    margin: 5px 0 5px 0;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #c4fdcf;
+    cursor: pointer;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#botones button {
+    background: #0db5f0;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#mensaje {
+    color: #0db5f0;
+    text-align: center;
+}
